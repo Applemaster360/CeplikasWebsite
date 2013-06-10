@@ -1,43 +1,204 @@
+<title> TEST </title>
+
+<a href="http://hhs.hanovernorwichschools.org/">< go back to <b>hanover high home</b></a>
+
 <!-- formatting -->
 <style>
+
+/*main */
+
 div {
 height: 80px;
 width: 80px;
 border:0px;
-padding:40px 40px; 
-background:#eeeeee;
+padding:40px; 
 border-radius:500px; 
 -moz-border-radius: 500px;
 }
 
-.div1{
-transform: rotate(60deg);
--ms-transform: rotate(60deg); /* IE 9 */
--webkit-transform: rotate(60deg); /* Safari and Chrome */
+big {
+height: 300px;
+width: 300px;
+border:2px solid #33dddd; 
+padding:40px; 
+border-radius:500px; 
+-moz-border-radius: 500px;
+background:#ccffee;
+position: absolute;
+left: 447px;
+top: 196px;
 }
 
-.div2{
+/* rotations */
+
+.nine {
 transform: rotate(90deg);
 -ms-transform: rotate(90deg); /* IE 9 */
 -webkit-transform: rotate(90deg); /* Safari and Chrome */
 }
 
+/* colors */
 
-body {background-color:#b0c4de;}
+@keyframes y
+{
+from {background:white; left: 10px; top: 310px;} 
+to {background:#fff55;}
+}
 
-p {word-wrap:break-word;}
+@-webkit-keyframes y /* Safari and Chrome */
+{
+from {background:white; left: 10px; top: 310px;}
+to {background:#ffff55;}
+}
+
+@keyframes b
+{
+from {background:white; left: 10px; top: 160px;}
+to {background:#0066ff;}
+}
+
+@-webkit-keyframes b /* Safari and Chrome */
+{
+from {background:white; left: 10px; top: 160px;}
+to {background:#0066ff;}                              
+} 
+                                
+@keyframes r
+{
+from {background:white; left: 10px; top: 10px;} 
+to {background:#ff5555;}
+}
+ 
+@-webkit-keyframes r /* Safari and Chrome */
+{
+from {background:white; left: 10px; top: 10px;}
+to {background:#ff5555; }
+} 
+
+.red{ 
+background:#ff5555;  
+animation:tr 10s;
+-webkit-animation:r 10s; /* Safari and Chrome */
+position: absolute;
+left: 562px;
+top: 15px;
+}
+
+.yellow{
+background:#ffff55;  
+animation:y 10s;
+-webkit-animation:y 10s; /* Safari and Chrome */
+position: absolute;
+left: 347px;
+top: 96px;
+}
+
+.blue{
+background:#0066ff;  
+animation:b 10s;
+-webkit-animation:b 10s; /* Safari and Chrome */
+position: absolute;
+left: 254px;
+top: 304px;
+}
+
+.red1{ 
+background:#ff5555;  
+animation:tr 10s;
+-webkit-animation:r 10s; /* Safari and Chrome */
+position: absolute;
+left: 334px;
+top: 515px;
+}
+
+.yellow1{
+background:#ffff55;  
+animation:y 10s;
+-webkit-animation:y 10s; /* Safari and Chrome */
+position: absolute;
+left: 561px;
+top: 598px;
+}
+
+.blue1{
+background:#0066ff;  
+animation:b 10s;
+-webkit-animation:b 10s; /* Safari and Chrome */
+position: absolute;
+left: 786px;
+top: 514px;
+}
+
+.yellow2{
+background:#ffff55;  
+animation:y 10s;
+-webkit-animation:y 10s; /* Safari and Chrome */
+position: absolute;
+left: 865px;
+top: 304px;
+}
+
+.blue2{
+background:#0066ff;  
+animation:b 10s;
+-webkit-animation:b 10s; /* Safari and Chrome */
+position: absolute;
+left: 773px;
+top: 96px;
+}
+
+body {background-color:#555555;}
+
+/* text */
+
+p {word-wrap:break-word;
+font-variant:small-caps;
+}
+
+a
+{
+display:block;
+width:300px;
+background-color:#555555;
+font-variant: small-caps;
+}
+a:link {color: #dddddd; text-decoration:none;}   
+a:visited {color: #dddddd; text-decoration:none;} 
+a:hover {color: white; text-decoration:none;}   
+a:active {color: white; text-decoration:none;}
 
 </style>
 
-<div>
-<center> <p> 
-hi skjfsldk sklfdjsklfjsslfkjslksjfslkj </p></div>
-<br>
+<big><center><p> A FLOWER<br><br> poetic words are<br> here <br>on this circle <br>
+that is not a circle<br> slowly<br>filling the space<br>with meaningless<br>sentences<br> broken up<br>in an attempt to look<br> artsy </p></center> </big>
 
-<div class="div1"><center> hi again. backsdfssf </div> 
+<div class = "red">
+<p> she loves me
+</div> 
 <br>
-
-<div class="div2" <center> lksflkflff</div>
+<div class = "yellow">
+<p> she loves me not
+</div> 
 <br>
-
-<div> lksjfklsjfkls sfjsdlkfj </div>
+<div class = "blue">
+<p> loves me 
+</div> 
+<br>
+<div class = "red1">
+<p> loves me not
+</div> 
+<br>
+<div class = "yellow1">
+<p> loves me
+</div> 
+<br>
+<div class = "blue1">
+<p> not
+</div> 
+<div class = "yellow2">
+<p> love
+</div> 
+<br>
+<div class = "blue2">
+<p> denied. 
+</div> 
